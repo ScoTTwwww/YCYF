@@ -1,0 +1,34 @@
+.title.sub{width:550px}
+.table{margin-top:20px}
+.table thead>tr>th{background:#EAECEE;text-align:center;border:none;font-weight:400;white-space:nowrap;}
+.table tbody>tr>td{border-bottom:1px solid #333;vertical-align:middle;text-align:center;}
+
+.table td div{line-height:35px}
+.table td:nth-of-type(3),.table td:nth-of-type(4){text-align:left}
+.w28{min-width:280px;width:280px}
+.mw25{min-width:200px}
+.clock{width:25px;height:25px;display:inline-block;margin-left:10px}	
+.clock img{width:100%;vertical-align:text-top;}	
+
+.sign{padding-left:15px;margin-top:80px}
+.sign>div{margin-right:15px;padding-right:10px;border-right:1px solid #333;margin-top:10px}
+.sign>div:nth-of-type(5){border:none}
+.sign>.QR{
+	width: 100px;
+    height: 100px;
+    vertical-align: bottom;
+	border:none;
+	margin:0px;
+	padding:0px;
+	margin-top:-55px;
+	float:right
+}
+.QR img{width:100%}
+
+
+@media screen and (max-width: 1200px) {
+  	.container{width:95%}	
+}
+@media screen and (max-width: 1130px) {
+  	.sign>.QR{margin-top:0px;}	
+}

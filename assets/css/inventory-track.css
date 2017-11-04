@@ -1,0 +1,19 @@
+.title{width:600px;max-width:100%}
+form {min-height:300px}
+form .row{margin:15px 0px;text-align:left}
+form .row>label{font-weight:400;line-height:48px;}
+form .row>div{padding:0px;}
+form .row b{line-height:48px;}
+hr{border-color:#333}
+.sign{
+	border-top:1px solid #333;
+	float:none;
+	margin:30px 0 10px 0;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:right;
+	padding:20px 0  0  0;
+	}
+.sign>div{padding:2px 10px;display:inline-block}
+.sign>div:last-of-type{padding-right:0px}
+.bor_r{border-right:1px solid #333}

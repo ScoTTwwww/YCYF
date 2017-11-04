@@ -1,0 +1,54 @@
+
+hr{border-color:#333}
+.container label{font-weight:400;letter-spacing:5px}
+b label{font-weight:700;}	
+
+.option label{
+	margin:0px;
+	line-height:50px
+}
+.option div>label:nth-of-type(2){white-space:nowrap;}
+.cameraP{margin:10px 0px 20px 0px;padding-right:0px}
+.cameraP>label{margin-right:15px}
+.picture{
+	border:1px solid #333;
+	width:328px;
+	height:230px;
+	background-color:#EEEFEF;
+	background-image:url(../img/icon/camera.svg);
+	background-repeat:no-repeat;
+	background-size:20%;
+	background-position:50% 45%;
+	position:relative;
+	padding:0px
+}
+.picture label{margin:150px 0 0 100px;color:#aaa}
+.picture img{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+}	
+.sign{margin-top:-40px}
+.QR{width:100px;height:100px;vertical-align:bottom;margin-top:-65px}
+.QR img{width:100%}
+.bor_r{border-right:1px solid #555;}	
+
+
+
+
+@media screen and ( max-width:1200px ){
+	.container{width:95%}
+}
+@media screen and ( max-width:1060px ){
+	.sign{margin-top:10px;width:100%;padding-left:0px}
+	.sign .bor_r{text-align:left;width:345px;margin-right:5px}
+}	
+	
+@media screen and ( max-width:790px ){
+	.sign .bor_r{border:none}
+	.sign .bor_r+div{padding-right:0px}
+	.sign .QR{margin:0px 10px}
+	.row .cameraP{float:left}
+}
+	

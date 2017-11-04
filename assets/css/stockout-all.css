@@ -1,0 +1,39 @@
+form .row{margin:15px 0px}
+form .row>label{font-weight:400;line-height:48px}
+form .row>div{padding:0px}
+.addE{
+	margin:4px -15px 4px 10px;
+	background:url("../img/btn/add.svg");
+}
+.addE:active{
+	background:url("../img/btn/add2.svg");}
+
+.table td div{line-height:35px}
+.table td:nth-of-type(3),.table td:nth-of-type(4){text-align:left}
+.w28{min-width:280px;width:280px}
+.mw25{min-width:200px}
+.clock{width:25px;height:25px;display:inline-block;margin-left:10px}	
+.clock img{width:100%;vertical-align:text-top;}	
+	
+	
+
+	
+@media screen and (max-width: 768px) {
+  	.col-sm-3 {width:20%;float:left}
+	label.col-sm-3{width:30%;}
+	.col-sm-2 {width:15%;float:left}
+	.row>div{padding:0px}
+	.row>label{padding:0px}
+	.col-sm-7{width:50%;float:left}
+	
+}
+
+@media screen and (max-width: 600px) {
+  	form .row:last-of-type>div:last-of-type{width:100%;text-align:right;padding-right:15px}
+	.col-sm-3 {width:30%;}
+	.col-sm-2 {width:20%;}
+	.col-sm-7{width:70%;}
+	
+	
+	
+}
